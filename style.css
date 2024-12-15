@@ -4238,8 +4238,7 @@ figcaption {
 
 .contact_col-v2 {
     width: 100%;
-    max-width: 30rem;
-    margin-left: auto
+    padding-top: 3rem;
 }
 
 .contact_textarea {
@@ -4372,7 +4371,7 @@ figcaption {
 }
 
 .body.body--services {
-    padding-top: 8rem
+    padding-top: 86px;
 }
 
 .body.body--blog {
@@ -4390,7 +4389,11 @@ figcaption {
 }
 
 .body.body-contact {
-    padding-top: 0
+    padding-top: 0;
+}
+
+.body.body-contact .main-wrapper {
+    padding-top: 86px;
 }
 
 .footer_texture-img_wrap {
@@ -4645,6 +4648,10 @@ figcaption {
     position: relative
 }
 
+.container.container-contact {
+    padding-top: 86px;
+}
+
 .container-archive.nav_container {
     flex-direction: column;
     justify-content: flex-start;
@@ -4754,7 +4761,6 @@ figcaption {
     width: 100%;
     height: 100%;
     margin-bottom: 0;
-    padding-bottom: 133.7%;
     position: relative;
     overflow: hidden
 }
@@ -6325,10 +6331,10 @@ figcaption {
 .main_archive__item__title {
     color: var(--text-main);
     margin-top: 0;
-    margin-bottom: 0;
+    margin-bottom: 1rem;
     font-family: Studio feixen sans, sans-serif;
     font-size: 1rem;
-    font-weight: 400;
+    font-weight: 600;
     line-height: 1.4;
 }
 
@@ -6352,7 +6358,9 @@ figcaption {
 
 .main_archive__item_info {
     flex: 1;
-    margin-top: .75rem
+    margin-top: .75rem;
+    min-height: 220px;
+    margin-bottom: 3rem;
 }
 
 .article-home-text {
@@ -6461,6 +6469,14 @@ figcaption {
 @media screen and (max-width:991px) {
     .hide-tablet {
         display: none
+    }
+
+    .body.body-contact .main-wrapper {
+        padding-top: 0;
+    }
+
+    .container.container-contact {
+        padding-top: 0;
     }
 
     .fs-styleguide_section {
@@ -6771,12 +6787,12 @@ figcaption {
         padding-left: 12rem
     }
 
-    .contact_row {
+    /* .contact_row {
         grid-column-gap: 4.25rem;
         grid-row-gap: 4.25rem;
         flex-direction: column-reverse;
         grid-auto-flow: row
-    }
+    } */
 
     .contact_title {
         max-width: none;
@@ -7911,7 +7927,7 @@ figcaption {
 
     .body.body--services {
         background-color: #fff;
-        padding-top: 4.25rem
+        padding-top: 86px;
     }
 
     .body.body--blog,
