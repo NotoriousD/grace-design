@@ -5308,6 +5308,10 @@ figcaption {
     position: relative
 }
 
+.img-not-full-height {
+    height: auto;
+}
+
 .article {
     margin-bottom: 1rem;
 }
@@ -5626,7 +5630,7 @@ figcaption {
     gap: 12px;
 }
 
-.footer-nav-link {  
+.footer-nav-link {
     position: relative
 }
 
@@ -7068,6 +7072,10 @@ figcaption {
 
     .img.img-cover {
         object-fit: cover
+    }
+
+    .img.img-contain {
+        object-fit: contain;
     }
 
     .press-line {
