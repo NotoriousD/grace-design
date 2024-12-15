@@ -867,6 +867,74 @@ color: #000000;
         font-size: 2rem; !important;
       }
 
+      .timeline {
+        position: relative;
+        /*max-width: 600px;*/
+        /*margin: 0 auto;*/
+        /*padding: 20px;*/
+      }
+
+      .step {
+        display: flex;
+        align-items: flex-start;
+        position: relative;
+        padding-bottom: 30px;
+      }
+
+      /* Add vertical line */
+      .step::before {
+        content: "";
+        position: absolute;
+        /*top: 0;*/
+        /*left: 24px;*/
+        top: 16px;
+        left: 15px;
+        width: 2px;
+        height: 100%;
+        background-color: #D9D9D9;
+      }
+
+      .step:last-child::before {
+        display: none; /* Remove line for last step */
+      }
+
+      .step:last-child {
+        padding-bottom: 0;
+      }
+
+      /* Circle for numbers */
+      .circle {
+        width: 32px;
+        height: 32px;
+        background-color: #D9D9D9;
+        color: #6F6F6F;
+        font-size: 16px;
+        line-height: 24px;
+        border-radius: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-weight: bold;
+        margin-right: 20px;
+        z-index: 1;
+      }
+
+      /* Content next to the circle */
+      .content {
+        flex: 1;
+      }
+
+      .content h4 {
+        margin: 0 0 18px;
+        font-size: 16px;
+      }
+
+      .content p {
+        margin: 0;
+        line-height: 1.4;
+      }
+
+
     </style>
   </div>
   <div class="page-wrapper">
@@ -931,7 +999,7 @@ color: #000000;
           </div>
         </div>
       </section>
-      <section class="container container-offset-top-150 mobile-offset">
+      <section class="container mobile-offset" style="padding-top: 20px">
         <div class="container-in">
           <div class="container-row">
             <div fadein="fadein" class="container-col">
@@ -969,7 +1037,7 @@ color: #000000;
           </div>
         </div>
       </section>
-      <section class="container container-offset-top-150 mobile-offset">
+      <section class="container mobile-offset" style="padding-top: 70px">
         <div class="container-in">
           <div class="container-row">
             <div fadein="fadein" class="container-col hide-mobile">
@@ -1024,29 +1092,42 @@ color: #000000;
                   }
                 </style>
               </div>
-              <div class="about-article w-richtext">
-                <ul start="" role="list" class="w-list-unstyled">
-                  <li>
-                    Discovery
-                    We begin by immersing ourselves in your vision, understanding your goals, lifestyle, and preferences - both personal and business. This collaborative phase lays the foundation for a design concept that reflects your unique story, aspirations, and culture.
-                  </li>
-                  <li>
-                    Concept Development
-                    Our designers craft an inspired concept that seamlessly combines aesthetics and functionality. Through meticulous attention to detail, we define the colors, textures, and key elements that bring your vision to life.
-                  </li>
-                  <li>
-                    Design Development
-                    With precision and creativity, we refine layouts, optimize spaces, and create 3D models. From furniture arrangements to spatial flow, every detail is considered to ensure both beauty and practicality, while aligning with your wishes and ambitions.
-                  </li>
-                  <li>
-                    Material and Furniture Selection
-                    Leveraging our network of European suppliers, partners, and dealer agreements, we procure high-quality materials and select exquisite furniture with a keen understanding of budget considerations. Every choice is individually curated to enhance both the overall and local design, ensuring lasting value.
-                  </li>
-                  <li>
-                    Design Development:
-                    While we do not provide general contracting services, we collaborate with trusted contractors across Europe to ensure seamless project coordination. From overseeing installations to managing the final furnishings, we guarantee a smooth process. The result is a fully realized space, delivered turnkey and ready to inspire.
-                  </li>
-                </ul>
+              <div class="about-article w-richtext timeline">
+                <div class="step">
+                  <div class="circle">1.</div>
+                  <div class="content">
+                    <h4>Discovery</h4>
+                    <p>We begin by immersing ourselves in your vision, understanding your goals, lifestyle, and preferences - both personal and business. This collaborative phase lays the foundation for a design concept that reflects your unique story, aspirations, and culture.</p>
+                  </div>
+                </div>
+                <div class="step">
+                  <div class="circle">2.</div>
+                  <div class="content">
+                    <h4>Concept Development</h4>
+                    <p>Our designers craft an inspired concept that seamlessly combines aesthetics and functionality. Through meticulous attention to detail, we define the colors, textures, and key elements that bring your vision to life.</p>
+                  </div>
+                </div>
+                <div class="step">
+                  <div class="circle">3.</div>
+                  <div class="content">
+                    <h4>Design Development</h4>
+                    <p>With precision and creativity, we refine layouts, optimize spaces, and create 3D models. From furniture arrangements to spatial flow, every detail is considered to ensure both beauty and practicality, while aligning with your wishes and ambitions.</p>
+                  </div>
+                </div>
+                <div class="step">
+                  <div class="circle">4.</div>
+                  <div class="content">
+                    <h4>Material and Furniture</h4>
+                    <p>Leveraging our network of European suppliers, partners, and dealer agreements, we procure high-quality materials and select exquisite furniture with a keen understanding of budget considerations. Every choice is individually curated to enhance both the overall and local design, ensuring lasting value.</p>
+                  </div>
+                </div>
+                <div class="step">
+                  <div class="circle">5.</div>
+                  <div class="content">
+                    <h4>Coordination</h4>
+                    <p>While we do not provide general contracting services, we collaborate with trusted contractors across Europe to ensure seamless project coordination. From overseeing installations to managing the final furnishings, we guarantee a smooth process. The result is a fully realized space, delivered turnkey and ready to inspire.</p>
+                  </div>
+                </div>
               </div><a href="projects.html" class="about-article-link">see our work →</a>
             </div>
           </div>
@@ -1059,7 +1140,7 @@ color: #000000;
           </div>
         </div>
       </section>
-      <section class="container mobile-hide container-about-title-v2 container-bottom-offset">
+      <section class="container mobile-hide container-about-title-v2 container-bottom-offset" style="padding-top: 70px">
         <div class="container-in">
           <div fadein="fadein" class="container-title container-title--v2">
               Are you ready to experience our unique blend of style, innovation, and efficiency?
