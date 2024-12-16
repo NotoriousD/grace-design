@@ -5,12 +5,23 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="89a2061b-30a1-4fba-8549-3c2c773703a8" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/project-10-1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/project-10-2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/projects/morning-ritual.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/links/Privacy-Policy-Grace-Design.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/links/Terms-Of-Use-Grace-Design.pdf" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/about.html" beforeDir="false" afterPath="$PROJECT_DIR$/about.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contact.html" beforeDir="false" afterPath="$PROJECT_DIR$/contact.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/projects.html" beforeDir="false" afterPath="$PROJECT_DIR$/projects.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/elevated-workspace.html" beforeDir="false" afterPath="$PROJECT_DIR$/projects/elevated-workspace.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/horizon-house.html" beforeDir="false" afterPath="$PROJECT_DIR$/projects/horizon-house.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/industrial-elegance.html" beforeDir="false" afterPath="$PROJECT_DIR$/projects/industrial-elegance.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/industrial-harmony.html" beforeDir="false" afterPath="$PROJECT_DIR$/projects/industrial-harmony.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/modern-muse.html" beforeDir="false" afterPath="$PROJECT_DIR$/projects/modern-muse.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/morning-ritual.html" beforeDir="false" afterPath="$PROJECT_DIR$/projects/morning-ritual.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/pure-whites.html" beforeDir="false" afterPath="$PROJECT_DIR$/projects/pure-whites.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/velvet-ember.html" beforeDir="false" afterPath="$PROJECT_DIR$/projects/velvet-ember.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/warm-minimalism.html" beforeDir="false" afterPath="$PROJECT_DIR$/projects/warm-minimalism.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/services.html" beforeDir="false" afterPath="$PROJECT_DIR$/services.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,7 +44,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
     "git-widget-placeholder": "main",
-    "last_opened_file_path": "/Users/ykostiuk/work/grace-design",
+    "last_opened_file_path": "/Users/ykostiuk/work/grace-design/links",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -44,11 +55,11 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/links" />
       <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/projects" />
       <recent name="$PROJECT_DIR$/img/projects" />
       <recent name="$PROJECT_DIR$/img" />
-      <recent name="$PROJECT_DIR$/img/velvet-ember" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/img" />
@@ -80,7 +91,7 @@
       <workItem from="1734284189971" duration="26785000" />
       <workItem from="1734366184422" duration="1476000" />
       <workItem from="1734382091864" duration="2000" />
-      <workItem from="1734382105232" duration="935000" />
+      <workItem from="1734382105232" duration="2022000" />
     </task>
     <servers />
   </component>
