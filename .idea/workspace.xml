@@ -5,8 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="89a2061b-30a1-4fba-8549-3c2c773703a8" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/img/linkedin-icon.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/project-10-1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/project-10-2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/projects/morning-ritual.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects.html" beforeDir="false" afterPath="$PROJECT_DIR$/projects.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,7 +33,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
     "git-widget-placeholder": "main",
-    "last_opened_file_path": "/Users/ykostiuk/work/grace-design/img/projects",
+    "last_opened_file_path": "/Users/ykostiuk/work/grace-design",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -40,9 +44,10 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/projects" />
       <recent name="$PROJECT_DIR$/img/projects" />
       <recent name="$PROJECT_DIR$/img" />
-      <recent name="$PROJECT_DIR$/projects" />
       <recent name="$PROJECT_DIR$/img/velvet-ember" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
@@ -75,7 +80,7 @@
       <workItem from="1734284189971" duration="26785000" />
       <workItem from="1734366184422" duration="1476000" />
       <workItem from="1734382091864" duration="2000" />
-      <workItem from="1734382105232" duration="358000" />
+      <workItem from="1734382105232" duration="935000" />
     </task>
     <servers />
   </component>
