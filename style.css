@@ -5646,7 +5646,15 @@ figcaption {
     justify-content: flex-start;
     /* padding-bottom: 1.5rem; */
     display: flex;
+    flex-direction: column;
     max-width: 30%;
+}
+
+.footer-socials {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 12px;
 }
 
 .footer-logo-w {
@@ -6472,6 +6480,17 @@ figcaption {
 .heading-6 {
     height: 50px;
     font-size: 6rem
+}
+
+.contact_adress-item-social {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.contact-column_social {
+    display: flex;
+    flex-direction: column;
 }
 
 @media screen and (max-width:991px) {
@@ -7887,7 +7906,8 @@ figcaption {
     }
 
     .contact_adress-item.contact_adress-item-social {
-        order: 3
+        order: 3;
+        flex-direction: column;
     }
 
     .contact_adress-col-v1 {
